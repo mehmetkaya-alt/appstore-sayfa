@@ -1,62 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Affirmations Pro – App Store Sayfası</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  </head>
-  <body class="bg-gray-50 text-gray-900 font-sans">
-    <div class="max-w-5xl mx-auto p-6">
-      <!-- Header -->
-      <div class="flex items-center space-x-4">
-        <img src="icon.png" alt="Affirmations Pro" class="w-20 h-20 rounded-xl shadow">
-        <div>
-          <h1 class="text-3xl font-bold">Affirmations Pro</h1>
-          <p class="text-gray-600">Start Your Day Strong</p>
-          <p class="text-gray-500">MindfulTech Labs · Health & Wellbeing · 18+</p>
-        </div>
-        <button class="ml-auto bg-black text-white px-4 py-2 rounded-lg">Get</button>
-      </div>
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Affirmations Pro – App Store Önizleme</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--muted:#6b7280;--text:#0b0b0c;--border:#e5e7eb}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text)}
+.container{max-width:1100px;margin:0 auto;padding:24px}.row{display:grid;grid-template-columns:1fr;gap:16px}
+@media(min-width:900px){.row{grid-template-columns:auto 1fr auto}}
+.app-icon{width:112px;height:112px;border-radius:28px;object-fit:cover;border:1px solid var(--border);background:#fafafa}
+h1{margin:0;font-size:28px}.subtitle{color:var(--muted);margin-top:4px}
+.meta{display:flex;flex-wrap:wrap;gap:8px;color:var(--muted);font-size:14px;margin-top:8px}
+.btn{background:#0b0b0c;color:#fff;border:none;border-radius:999px;padding:10px 16px;font-weight:600}
+.grid3{display:grid;gap:16px}@media(min-width:900px){.grid3{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.small{font-size:12px;color:var(--muted)}.bar{height:8px;background:#e5e7eb;border-radius:999px;overflow:hidden}.fill{height:8px;background:#0b0b0c;border-radius:999px}
+.shots{display:flex;gap:12px;overflow:auto;padding-bottom:6px}.shot{height:520px;max-width:320px;border:1px solid var(--border);border-radius:18px;box-shadow:0 2px 6px rgba(0,0,0,.06);object-fit:cover;background:#fafafa}
+.section-title{font-size:18px;font-weight:700;margin:0 0 6px 0}.pill{background:#f3f4f6;border:1px solid var(--border);padding:6px 10px;border-radius:10px}
+.footer{color:#9ca3af;text-align:center;margin-top:28px;font-size:12px}
+</style>
+</head>
+<body>
+<div class="container">
 
-      <!-- Ratings -->
-      <div class="grid grid-cols-3 gap-6 mt-8">
-        <div class="p-4 bg-white rounded-lg shadow">
-          <p class="text-4xl font-bold">4.8 ⭐</p>
-          <p class="text-gray-600">245.000 oy</p>
-        </div>
-        <div class="p-4 bg-white rounded-lg shadow">
-          <p class="text-gray-500">Yaş</p>
-          <p class="text-xl font-semibold">18+</p>
-        </div>
-        <div class="p-4 bg-white rounded-lg shadow">
-          <p class="text-gray-500">Kategori</p>
-          <p class="text-xl font-semibold">Health & Wellbeing</p>
-        </div>
-      </div>
-
-      <!-- Screenshots -->
-      <h2 class="text-2xl font-bold mt-10 mb-4">Ekran Görüntüleri</h2>
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-        <img src="Mockup-1.png" alt="Daily reminders" class="rounded-lg shadow">
-        <img src="Mockup-2.png" alt="Personalized affirmations" class="rounded-lg shadow">
-        <img src="Mockup-3.png" alt="Customizable widgets" class="rounded-lg shadow">
-        <img src="Mockup-6.png" alt="75+ categories" class="rounded-lg shadow">
-        <img src="Mockup-8.jpg" alt="Get inspired" class="rounded-lg shadow">
-        <img src="Mocukp-9.jpg" alt="Believe in yourself" class="rounded-lg shadow">
-      </div>
-
-      <!-- Features -->
-      <h2 class="text-2xl font-bold mt-10 mb-4">Özellikler</h2>
-      <ul class="list-disc list-inside space-y-2">
-        <li>🔮 Smart Affirmations – Ruh haline, alışkanlıklarına ve hedeflerine göre uyumlu cümleler</li>
-        <li>⏰ Reminders + Mood Tracker – Tutarlılığı koru, gelişimini takip et</li>
-        <li>🎧 Audio Mode – Meditasyonlar, uykuya yönelik olumlamalar, odak artırıcı sesler</li>
-        <li>📊 Insight Dashboard – Duygusal gelişim sürecini gör</li>
-        <li>🧘 Self-Care Add-ons – Su içme hatırlatıcı, günlük yazma, adım sayacı</li>
-        <li>🎨 Designed for Calm – İlham veren, minimal tasarım</li>
-        <li>🌙 Day & Night Modes – Sabah motivasyonu + akşam yansıması</li>
-      </ul>
+  <!-- HEADER -->
+  <div class="row" style="align-items:center">
+    <img class="app-icon" alt="Affirmations Pro" src="icon.png?v=2">
+    <div>
+      <h1>Affirmations Pro</h1>
+      <div class="subtitle">Start Your Day Strong</div>
+      <div class="meta"><span>MindfulTech Labs</span><span>•</span><span>Health &amp; Wellbeing</span><span>•</span><span>18+</span></div>
     </div>
-  </body>
+    <button class="btn">Get</button>
+  </div>
+
+  <!-- META -->
+  <div class="grid3" style="margin-top:16px">
+    <div class="card">
+      <div class="section-title">Puanlar ve İncelemeler</div>
+      <div style="display:flex;align-items:center;gap:12px">
+        <div style="text-align:center">
+          <div style="font-size:36px;font-weight:800;line-height:1">4.8</div>
+          <div class="small">245.000 oy</div>
+        </div>
+        <div style="width:1px;background:var(--border);height:64px;margin:0 8px"></div>
+        <div style="flex:1;display:flex;flex-direction:column;gap:8px">
+          <div style="display:flex;align-items:center;gap:8px"><span class="small" style="width:16px">5</span><div class="bar" style="flex:1"><div class="fill" style="width:92%"></div></div></div>
+          <div style="display:flex;align-items:center;gap:8px"><span class="small" style="width:16px">4</span><div class="bar" style="flex:1"><div class="fill" style="width:70%"></div></div></div>
+          <div style="display:flex;align-items:center;gap:8px"><span class="small" style="width:16px">3</span><div class="bar" style="flex:1"><div class="fill" style="width:35%"></div></div></div>
+          <div style="display:flex;align-items:center;gap:8px"><span class="small" style="width:16px">2</span><div class="bar" style="flex:1"><div class="fill" style="width:12%"></div></div></div>
+          <div style="display:flex;align-items:center;gap:8px"><span class="small" style="width:16px">1</span><div class="bar" style="flex:1"><div class="fill" style="width:6%"></div></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="card"><div class="section-title">Yaş</div><div style="display:flex;justify-content:space-between;align-items:center;background:#f3f4f6;border:1px solid var(--border);border-radius:12px;padding:10px 12px"><div class="small">Derecelendirme</div><div class="pill">18+</div></div><div class="small" style="margin-top:8px">Uygunluk derecesi.</div></div>
+    <div class="card"><div class="section-title">Kategori</div><div style="display:flex;justify-content:space-between;align-items:center;background:#f3f4f6;border:1px solid var(--border);border-radius:12px;padding:10px 12px"><div class="small">Kategori</div><div class="pill">Health &amp; Wellbeing</div></div><div class="small" style="margin-top:8px">Mağaza bölümü.</div></div>
+  </div>
+
+  <!-- SCREENSHOTS -->
+  <div class="card" style="margin-top:16px">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+      <div class="section-title">Ekran Görüntüleri</div><a class="small" href="#">Tümünü gör</a>
+    </div>
+    <div class="shots">
+      <img class="shot" alt="Daily reminders" src="Mockup-1.png?v=2">
+      <img class="shot" alt="Personalized affirmations" src="Mockup-2.png?v=2">
+      <img class="shot" alt="Customizable widgets" src="Mockup-3.png?v=2">
+      <img class="shot" alt="75+ categories" src="Mockup-6.png?v=2">
+      <img class="shot" alt="Get inspired" src="Mockup-8.jpg?v=2">
+      <img class="shot" alt="Believe in yourself" src="Mocukp-9.jpg?v=2">
+    </div>
+  </div>
+
+  <div class="footer">Bu, App Store görünümüne benzeyen basit bir prototiptir.</div>
+</div>
+</body>
 </html>
